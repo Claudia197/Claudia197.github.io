@@ -1,0 +1,124 @@
+/* connor website css
+   developed and built by
+   jarrod li
+   06 March 2017       */
+
+
+html, body {
+
+  margin: 0;
+  padding: 0;
+  background-color: #EFEFEF;
+  font-family: 'Open Sans', sans-serif;
+  color: #A9A9A9;
+
+}
+
+.banner {
+
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  font-size: 25px;
+  color: #A9A9A9;
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+
+  background-color: white;
+  text-align: center;
+
+}
+
+.img:hover {
+
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+
+}
+
+a:link {
+  color: #A9A9A9;
+}
+
+a:hover {
+  color: #CAEBF2;
+}
+
+.websites {
+
+  float: left;
+  text-align: left;
+  width: 600px;
+  height: 367px;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+
+}
+
+.websites > h2, ul, p {
+
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+.content {
+
+  margin-top: 150px;
+  margin-bottom: 100px;
+
+}
+
+.maps {
+
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+
+.image {
+
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+}
+
+.text {
+
+  float: left;
+  width: 600px;
+  height: 367px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  text-align: left;
+
+}
+
+.text > h2, p {
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+
+}
+
+.footer {
+
+  position: relative;
+  color: #808080;
+
+
+  width: 100%;
+  height: 100px;
+
+}
